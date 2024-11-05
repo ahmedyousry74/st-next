@@ -40,7 +40,7 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
       {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />}
       {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />}
       <HomeTeacher />
-      <HomeStudents />
+      {/* <HomeStudents /> */}
       <NewsLetter />
       <HomeAuthor />
       {!!data?.data?.ai && <HomeAi data={data?.data?.ai} />}

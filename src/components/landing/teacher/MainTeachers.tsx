@@ -31,22 +31,6 @@ const mainTeachers = () => {
 
   return (
     <section>
-      <section className="py-12 bg-[#fff]-50 bg-cover bg-center bg-no-repeat relative header__hero"
-      >
-        <div className="w-full h-full flex justify-center items-end relative">
-        
-          <div className="container relative">
-            <div className="flex items-center justify-center gap-4 absolute bottom-[10px] right-0 w-full">
-                    <Link href={'/library'}>
-                      <button className='cursor-pointer relative bg-[#553ddd] text-[#fff] !py-[12px] !px-[20px] sm:px-[18px] rounded-xl font-medium text-[15px] lg:w-[150px] w-auto h-[45px]'> المكتبة </button>
-                    </Link>
-                    <Link href={'/'}>
-                      <button className='cursor-pointer relative bg-[#EFEEFE] text-[#553ddd] !py-[12px] !px-[20px] sm:px-[18px] rounded-xl font-medium text-[15px] lg:w-[150px] w-auto h-[45px]'> الرئيسية </button>
-                    </Link>
-                  </div>
-          </div>
-        </div>
-      </section>
       <section className="py-12 teacher__section relative">
           <div className="container">
               <div className='flex justify-center items-center flex-row w-full bg_bg' style={{height: '60px'}}>
