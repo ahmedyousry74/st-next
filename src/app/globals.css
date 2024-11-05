@@ -1000,6 +1000,10 @@ footer svg,footer path{
   .educational_system{
     height: auto !important;
   }
+  .header__hero {
+    height: 350px !important;
+}
+
 }
 .features__one{
   background-image: url('../../src/assets/images/teacher.jpeg');
