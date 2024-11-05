@@ -52,7 +52,7 @@ const HomeAuthor = ({ data }: { data: HomeSingleDetailsSection }) => {
 
     <section className="bg-primary py-12 dark h-[100vh] educational_system relative">
         <div className='flex justify-center items-center flex-row bg_bg'>
-            <span className="" > الناشر و المؤلف </span>
+            <span className="!text-white" > الناشر و المؤلف </span>
         </div>
       <RevealAnimation>
 

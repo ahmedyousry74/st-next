@@ -20,7 +20,7 @@ const NewsLetter = () => {
 
 
   return (
-    <section className="digital_number flex justify-center items-center flex-col bg gap-3 w-full dark relative pt-8 lg:py-10">
+    <section className="digital_number flex justify-center items-center flex-col bg gap-3 w-full dark relative py-8 lg:py-10">
       <div className="container">
         <div className='flex justify-center items-center flex-row w-full bg_bg'>
           <span className="">

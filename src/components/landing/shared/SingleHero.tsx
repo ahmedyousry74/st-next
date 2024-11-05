@@ -74,7 +74,7 @@ const SingleHero: FC<Props> = ({ img, subTitle, title, children, preTitle, imgBg
           )}
 
 
-          <h1 className={`font-bold text-2xl md:text-5xl text-primary  lg:text-5xl !leading-[1.4] ${titleClassName}`}>
+          <h1 className={`font-bold md:text-5xl text-primary  lg:text-5xl text-[17px] !leading-[1.4] ${titleClassName}`}>
             {title}
           </h1>
           {!!secondTitle && (
@@ -84,7 +84,7 @@ const SingleHero: FC<Props> = ({ img, subTitle, title, children, preTitle, imgBg
           )}
         </motion.div>
         {!!subTitle && (
-          <div className="my-5 lg:my-6 text-xl text-text text-justify lg:!w-[640px] w-full"
+          <div className="my-5 lg:my-6 md:text-xl text-[17px] text-text text-justify lg:!w-[640px] w-full"
             dangerouslySetInnerHTML={{ __html: subTitle }}
           />
         )}

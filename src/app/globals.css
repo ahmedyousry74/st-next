@@ -479,6 +479,7 @@ button.bg-gradient:active {
   font-size: 35px;
   margin-top: 15px;
 }
+
 .educational_system h2{
   font-size: 25px;
   margin-bottom: 25px;
@@ -972,7 +973,7 @@ footer svg,footer path{
   background-image: url('../../src/assets/images/slider.jpeg');
 }
 .bg_bg{
-  background-image: url('../../src/assets/images/bg.png');
+  /* background-image: url('../../src/assets/images/bg.png'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -983,7 +984,20 @@ footer svg,footer path{
 .bg_bg span{
   position: absolute;
   top: 20px;
-  font-size: 17px;
-  color: #fff;
+  font-size: 22px;
+  color: #553DDD;
   font-weight: bold;
+}
+.navbar{
+  z-index: 999;
+}
+@media(max-width: 480px){
+  .educational_system h1{
+    font-size: 25px;
+  }
+}
+@media(max-width: 767px){
+  .educational_system{
+    height: auto !important;
+  }
 }
