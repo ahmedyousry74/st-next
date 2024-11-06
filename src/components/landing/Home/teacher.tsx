@@ -23,8 +23,8 @@ const Hometeacher = () => {
   return (
 
     <section className="py-12 teacher__section relative">
-        <div className="container">
-            <div className='flex justify-center items-center flex-row md:gap-[100px] gap-[25px] lg:flex-nowrap flex-wrap'>
+        <div className="md:px-[40px] px-[25px]">
+            <div className='flex justify-center items-center flex-row md:gap-[40px] gap-[25px] lg:flex-nowrap flex-wrap'>
                 <div className="features__one flex justify-center items-center flex-col gap-4 px-4">
                     <h2 className='text-white font-semibold text-[20px] text-center' > منصة الفكر العلمي للحلول التعليمية أعضاء هيئة التدريس لوحة تحكم </h2>
                     <Link href={'/teachers'} className="my-5">

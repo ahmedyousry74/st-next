@@ -41,9 +41,9 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
       {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />}
       <HomeTeacher />
       {/* <HomeStudents /> */}
-      <NewsLetter />
-      <HomeAuthor />
       {!!data?.data?.ai && <HomeAi data={data?.data?.ai} />}
+      <HomeAuthor />
+      <NewsLetter />
       {/* {!!data?.data?.readers?.main_section && <HomeSmartReader data={data?.data?.readers} />} */}
       {!!data?.data?.latest_blogs?.data?.length && <LatestBlog data={data?.data?.latest_blogs?.data || []} />}
       {/* <CategoriesSlider /> */}
