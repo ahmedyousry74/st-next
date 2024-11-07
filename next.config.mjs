@@ -20,7 +20,17 @@ const nextConfig = {
         pathname: '/**',
       }
     ],
-  }
+  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(mp4|webm|ogg|ogv|pdf)$/,
+      type: 'asset/resource',       
+      generator: {
+        filename: 'static/media/[name].[hash][ext]',
+      },
+    });
+    return config;
+  },
 };
 
 export default withNextIntl(nextConfig);

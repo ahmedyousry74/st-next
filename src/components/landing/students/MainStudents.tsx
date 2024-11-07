@@ -14,7 +14,7 @@ import icon6 from '@/assets/images/icon6.webp'
 import { SingleHero } from "../shared"
 import studentImg from '@/assets/images/students.svg'
 import right from '@/assets/images/check2.png'
-
+import list from '@/assets/images/list.svg'
 import imgBg from '@/assets/images/landing/about_8.png'
 import { ArchiveBook, Book1, Data2, PresentionChart, Setting5, TickCircle, UserEdit } from "iconsax-react"
 import Image from "next/image"
@@ -45,66 +45,42 @@ const mainStudents = () => {
                     <span className="text-[#000] font-medium text-[20px] mb-4"> تدعم الطلاب بموارد للتحضير والاختبارات، وتعزز مهارات التفكير النقدي والشخصي والاجتماعي. توفر بيئة محفزة وتتابع تقدم الطلاب لمساعدتهم على تحسين أدائهم. </span>
                     <ul className='flex justify-start items-start flex-col gap-5 mt-4'>
                         <li className="flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span>
                             محتوى تعليمي شامل ومتنوع: يشمل دروسا وشروحات في مختلف المواد مصممة لتناسب جميع المستويات الدراسية.                  </span>
                         </li>
                         <li className="flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             أدوات تعلم تفاعلية توفر المنصة أدوات تفاعلية مثل الفيديوهات التعليمية والاختبارات القصيرة التي تساعد على تعزيز الفهم وترسيخ المعلومات بطريقة ممتعة وفعالة.                          </span>
                             </li>
                         <li className="flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             إمكانية الوصول إلى المواد التعليمية في أي وقت توفر المنصة مواد تعليمية يمكن الوصول إليها في أي وقت مما يتيح للطلاب التعلم بالوتيرة التي تناسبهم وبناء جداولهم الدراسية الخاصة.                            </span>
                             </li>
                         <li className="text-[#666] font-normal text-[15px] flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             دعم التحصيل الدراسي: تقدم المنصة موارد المساعدة الطلاب على التحضير للاختبارات والامتحانات بما في ذلك ملخصات وأسئلة تدريبية وحلول نموذجية.                           </span>
                             </li>
                         <li className="text-[#666] font-normal text-[15px] flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             تعزيز مهارات التفكير النقدي والإبداعي: من خلال محتوى يدفع الطلاب إلى التفكير بشكل نقدي وتحليلي وتعزيز مهاراتهم في حل المشكلات.                          </span>
                             </li>
                         <li className="text-[#666] font-normal text-[15px] flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             تطوير المهارات الشخصية والاجتماعية تشمل الموارد المقدمة برامج لتنمية المهارات الشخصية مثل إدارة الوقت والتواصل الفعال والقدرة على العمل ضمن فريق.                        </span>
                             </li>
                         <li className="text-[#666] font-normal text-[15px] flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             بيئة تعليمية مشجعة ومحفزة توفر المنصة بيئة تعليمية داعمة تشجع الطلاب على الاستفسار والتعلم بشكل نشط ومستمر مما يعزز من دافعيتهم وتحفيزهم.                      </span>
                             </li>
                         <li className="text-[#666] font-normal text-[15px] flex justify-start items-start flex-row gap-3 "> 
-                        <div className='icon__  flex justify-center items-center flex-row w-[60px]'>
-                    
-                    <Image alt="check" src={right} width={40} height={40} className='object-cover w-[40px] h-[40px]'  />
-                    </div>
+                        <Image alt="check" src={list}   />
                             <span className="text-[#666] font-normal text-[15px] ">
                             متابعة وتقييم التقدم : تقدم أدوات لقياس وتقييم تقدم الطلاب مما يساعدهم في تتبع الأداء وتحديد نقاط القوة والضعف للعمل على تحسينها.
                      </span>

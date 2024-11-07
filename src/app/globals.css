@@ -443,9 +443,9 @@ button.bg-gradient:active {
 .header__hero{
   height: calc(100vh - 83px);
 }
-*{
+/* *{
   font-family: '__Almarai_d7e1cf';
-}
+} */
 
 .about_us_section strong{
   font-size: 17px;
@@ -1006,7 +1006,7 @@ footer svg,footer path{
 
 }
 .features__one{
-  background-image: url('../../src/assets/images/teacher.jpeg');
+  background-image: url('../../src/assets/images/teacher.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1028,7 +1028,7 @@ footer svg,footer path{
   position: relative;;
 }
 .features__two{
-  background-image: url('../../src/assets/images/student2.jpeg');
+  background-image: url('../../src/assets/images/student.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1101,7 +1101,7 @@ footer svg,footer path{
   font-size: 17px;
   font-weight: 500;
 }
-.hero__img::after {
+/* .hero__img::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -1111,7 +1111,7 @@ footer svg,footer path{
   left: 0;
   bottom: 10px;
   z-index: 0;
-}
+} */
 .hero__img img{
   z-index: 9;
 }
@@ -1191,4 +1191,7 @@ footer svg,footer path{
     border: 2px solid transparent; /* Transparent border to set the width */
     border-image: linear-gradient(90deg, #FEA71D 33.33%, #533AD4 62%);
     border-image-slice: 1;
+}
+*{
+  font-family: '__Almarai_f70ffa', '__Almarai_Fallback_f70ffa' !important;
 }
