@@ -61,8 +61,8 @@ const HomeAboutUs = ({ data }: { data: HomeAboutUsIN }) => {
             <div className="lg:col-span-5">
               <div className='hero__img relative'>
                 {/* <Image src={hero} alt='hero img' className='object-contain z-9 relative' /> */}
-                <video width="" height="" controls className='z-10 relative w-full h-[550px] rounded-[12px]'>
-                  <source src={video} type="video/mp4" className='z-10 relative w-full h-[550px]'/>
+                <video width="" height="" controls className='z-10 relative w-full md:h-[550px] h-[300px] rounded-[12px]'>
+                  <source src={video} type="video/mp4"/>
                 </video>
               </div>
             </div>
