@@ -77,6 +77,7 @@ export default async function RootLayout({
             </Suspense>
           </NextIntlClientProvider>
         </RootProvider>
+        <script src="//code.tidio.co/cshxjz0o3iinvwtugutp4cthcaojy526.js" async></script>
       </body>
     </html>
   );
