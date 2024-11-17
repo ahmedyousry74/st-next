@@ -19,6 +19,7 @@ import { useGetHomeFrontQuery, useGetProfileQuery } from "@/services/api"
 import { CardLoader } from "@/components/shared/loaders"
 import { ErrorMessage } from "@/components/shared"
 import HomeLibraryNum from "./HomeLibraryNum"
+import Homecards from "./threeCards"
 
 
 
@@ -36,6 +37,7 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
   return (
     <main>
       {!!data?.data?.sliders?.length && <HomeHeroSection data={data?.data?.sliders || []} />}
+      <Homecards />
       {!!data?.data?.about_us?.[0] && <HomeAboutUs data={data?.data?.about_us} />}
       {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />}
       {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />}

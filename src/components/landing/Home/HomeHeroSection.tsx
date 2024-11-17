@@ -37,10 +37,6 @@ const HomeHeroSection = ({ data }: { data: HomeSingleDetail[] }) => {
                 delay: 3500,
                 disableOnInteraction: false,
               },
-
-            }}
-            navigationOptions={{
-              navTypes: ['dots']
             }}
           >
             <div className='slider__home bg1'>

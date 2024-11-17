@@ -1258,3 +1258,31 @@ footer svg,footer path{
   -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.swiper-slide.py-1{
+  padding-bottom:  0 !important;
+}
+.card_shape{
+  overflow: hidden;
+}
+.card_shape{
+  transition: 0.5s all ease-in-out;
+}
+.card_shape:hover .shape_2{
+  transform: translate(0,0) rotate(0) skew(0) skewY(0) scaleX(10) scaleY(10);
+  opacity: 1 !important;
+}
+.card_shape:hover h4, .card_shape:hover h6{
+  color: #fff !important;
+  position: relative;
+  z-index: 99;
+}
+.card_shape:hover h5{
+  color: #fff !important;
+  z-index: 9;
+}
+.card_shape:hover a{
+  background-color: #fff !important;
+  color: #333 !important;
+  position: relative;
+  z-index: 9;
+}
