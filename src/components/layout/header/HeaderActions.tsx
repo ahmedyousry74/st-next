@@ -11,16 +11,8 @@ import HeaderCart from "./HeaderCart"
 const HeaderActions = ({ isDrawer = false, isScrolled }: { isDrawer?: boolean, isScrolled?: boolean }) => {
   return (
     <div className={`navbar_btns flex items-center justify-center  ${isDrawer ? 'flex-col items-stretch ' : ''}`}>
-
-
       <ProfileDropdown isScrolled={isScrolled} block={isDrawer} />
-      {/* <ButtonGhost className="!px-2" size="small"  >
-        <Profile variant="Bulk" size={22} className={`${isScrolled ? 'text-white  ' : 'dark:text-white !text-text'}`} />
-      </ButtonGhost> */}
       <HeaderCart isDrawer={isDrawer} isScrolled={isScrolled} />
-
-      <DarkModeChange isScrolled={isScrolled} />
-
       <LanguageToggler showFlags />
 
     </div>

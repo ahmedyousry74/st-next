@@ -23,7 +23,7 @@ const NavLink = ({ href, name }: { href: string, name?: string }) => {
   return (
     <li className="[&>a.active]:text-primary w-full ">
       <ClientLink href={_href}
-        className={`capitalize w-full px-3 text-[18px]  text-nowrap  ${isActive ? "active font-bold dark:!text-text" : "text-text-45 dark:text-text-85 hover:text-text hover:bg-primary-20 md:hover:bg-transparent py-3 md:py-0"}`}
+        className={`capitalize w-full px-3 text-[16px] !text-[#fff]  text-nowrap  ${isActive ? "active font-semibold dark:!text-text" : "text-text-45 dark:text-text-85 hover:text-text hover:bg-primary-20 md:hover:bg-transparent"}`}
         target={isOuterLink ? "_blank" : "_self"}
       >
         {t(name) || href}
@@ -38,12 +38,13 @@ const MenuLg = ({ isDrawer = false }) => {
   return (
     <ul className={`flex items-center list-none gap-3 2xl:gap-5 ${isDrawer ? "flex-col" : ""} `}>
       <NavLink href="" name="home" />
-      <NavLink href="library" name="library" />
-      <NavLink href="educational-institutions" name="educationalInstitutionsManagement" />
+      <NavLink href="author" name="من نحن" />
       <NavLink href="author" name="الناشر و المؤلف" />
       <NavLink href="reader-ai" name="smartReader" />
-      {/* <NavLink href="support" name="helpAndSupport" /> */}
       <NavLink href="contact" name="contactUs" />
+      {/* <NavLink href="library" name="library" /> */}
+      {/* <NavLink href="educational-institutions" name="educationalInstitutionsManagement" /> */}
+      {/* <NavLink href="support" name="helpAndSupport" /> */}
       {/* <Popover
         trigger="hover"
         content={<CompanySubLinks />}

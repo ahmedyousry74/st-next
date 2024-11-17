@@ -45,22 +45,13 @@ const MainHeader = () => {
   const isScrolled = scrollY > 140
 
   return (
-    <header >
-      <div className="w-full"
-        style={{
-          height: '5.25rem',
-        }}
-      > </div>
-      {/* // bg-primary-5 */}
-      <div className={`navbar bg-bg/70 fixed z-50 top-0 w-screen   backdrop-blur transition-all duration-300 border-b border-primary-10 border-solid  `}>
-
-
-        {/* <HeaderSearch hide={isScrolled} /> */}
+    <header className='absolute top-0 right-0 z-9 w-full h-full'>
+      <div className='!bg-second-color-dark py-3 px-6 flex justify-start items-center flex-row relative z-10'>
+        <MenuLg />
+      </div>
+      <div className={`navbar bg-transparent relative z-50 top-0 w-screen transition-all duration-300 border-b border-primary-10 border-solid  `}>
         <div
-          // className={`${isScrolled ? 'py-2 bg-primary-85  ' : 'py-3 bg-primary-5'}`}
           className={`${isScrolled ? 'py-2    ' : 'py-3 '}`}
-
-
         >
           <div className="container-fluid px-4 md:px-5 lg:px-6 ">
             <div className="flex items-center gap-4 justify-between">
@@ -79,21 +70,13 @@ const MainHeader = () => {
                 <div className=" hidden sm:block">
                   <MainLogo />
                 </div>
-
               </div>
-
-              <div
-                // className={`hidden lg:block ${isScrolled ? 'dark' : ''}`}
-                className={`hidden lg:block  `}
-
-              >
-                <MenuLg />
+              <div className='search__input'>
+                <input type="text" placeholder='بحث' className='' />
               </div>
               <div className="flex items-center gap-5">
                 <div>
                   <HeaderActions
-
-                  // isScrolled={isScrolled} 
                   />
                 </div>
               </div>

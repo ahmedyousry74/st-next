@@ -28,13 +28,13 @@ const LanguageToggler = ({ showFlags = false }) => {
   const items: MenuProps['items'] = useMemo(() => [
     {
       key: 'ar',
-      label: (<div className="capitalize flex items-center gap-2" > <CountryFlag size="1.5em" />  {t('ar')} (العربية) </div>),
+      label: (<div className="capitalize flex items-center gap-2" > <CountryFlag size="2.5em" />  {t('ar')} (العربية) </div>),
       onClick: () => handleChangeLanguage('ar'),
     },
 
     {
       key: 'en',
-      label: (<div className="capitalize flex items-center gap-2" > <CountryFlag size="1.5em" code="US" />  {t('en')} (English) </div>),
+      label: (<div className="capitalize flex items-center gap-2" > <CountryFlag size="2.5em" code="US" />  {t('en')} (English) </div>),
       onClick: () => handleChangeLanguage('en'),
     },
 
@@ -52,7 +52,7 @@ const LanguageToggler = ({ showFlags = false }) => {
           <ArrowDown2 size={18} />
         </>
       ) : (<>
-        <CountryFlag code={lang === 'en' ? 'US' : 'SA'} size="1.75em" />
+        <CountryFlag code={lang === 'en' ? 'US' : 'SA'} size="2.5em" />
       </>)}
       {/* <ArrowDown2 size={showFlags ? 14 : 18} /> */}
     </div>

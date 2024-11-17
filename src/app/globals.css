@@ -880,10 +880,10 @@ footer svg,footer path{
   background-color: transparent;
   border-radius: 4px;
 }
-.navbar_btns a svg, .navbar_btns a path{
-  fill: #553DDD;
-  stroke: #553DDD;
-}
+/* .navbar_btns a svg, .navbar_btns a path{
+  fill: #fff;
+  stroke: #fff;
+} */
 .slider__library .ads__item{
   background-image: url('../../src/assets/images/h6_banner2.jpg');
   height: 100%;
@@ -1194,4 +1194,25 @@ footer svg,footer path{
 }
 *{
   font-family: '__Almarai_f70ffa', '__Almarai_Fallback_f70ffa' !important;
+}
+
+.search__input input{
+    border-radius: 40px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 42px 0 24px;
+    width: 100%;
+    background-color: rgb(145 147 152 / 35%);
+    color: #fff;
+    box-shadow: unset;
+    border: 1px solid #dfe1e1ff;
+    outline-width: 0;
+    outline-style: solid;
+    outline-offset: -1px;
+    width: 650px;
+}
+.search__input input::placeholder{
+  color: #fff !important;
 }
