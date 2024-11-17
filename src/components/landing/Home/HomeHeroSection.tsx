@@ -13,7 +13,9 @@ import { useTranslations } from "next-intl";
 
 
 const HomeHeroSection = ({ data }: { data: HomeSingleDetail[] }) => {
-
+  const imagePath = '/assets/images/university_1.jpg';
+  const imagePath2 = '/assets/images/university_2.jpg';
+  const imagePath3 = '/assets/images/university_3.jpg';
   const { t } = useLanguage()
 
   return (
@@ -41,20 +43,26 @@ const HomeHeroSection = ({ data }: { data: HomeSingleDetail[] }) => {
               navTypes: ['dots']
             }}
           >
-            <div className='slider__home' style={{
-         backgroundImage: `url('../../../src/assets/images/university_1.jpg')`,
-       }}>
-              <h1 className='text-[48px] text-black'> Test </h1>
+            <div className='slider__home bg1'>
+              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
+                <h1 className='text-white text-[45px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white text-[32px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
+              </div>
             </div>
-            <div className='slider__home' style={{
-         backgroundImage: `url('../../../src/assets/images/university_1.jpg')`,
-       }}>
-              <h1 className='text-[48px] text-black'> Test </h1>
+            <div className='slider__home bg2'>
+              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
+                <h1 className='text-white text-[45px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white text-[32px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
+              </div>
             </div>
-            <div className='slider__home' style={{
-         backgroundImage: `url('../../../src/assets/images/university_1.jpg')`,
-       }}>
-              <h1 className='text-[48px] text-black'> Test </h1>
+            <div className='slider__home bg3'>
+              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
+                <h1 className='text-white text-[45px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white text-[32px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
+              </div>
             </div>
 
           </SliderContainer>

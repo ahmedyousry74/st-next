@@ -23,7 +23,7 @@ const NavLink = ({ href, name }: { href: string, name?: string }) => {
   return (
     <li className="[&>a.active]:text-primary w-full ">
       <ClientLink href={_href}
-        className={`capitalize w-full px-3 text-[16px] !text-[#fff]  text-nowrap  ${isActive ? "active font-semibold dark:!text-text" : "text-text-45 dark:text-text-85 hover:text-text hover:bg-primary-20 md:hover:bg-transparent"}`}
+        className={`capitalize w-full px-3 text-[14px] !text-[#fefefe]  text-nowrap  ${isActive ? "active font-semibold" : "text-text-45 dark:text-text-85 hover:text-text hover:bg-primary-20 md:hover:bg-transparent"}`}
         target={isOuterLink ? "_blank" : "_self"}
       >
         {t(name) || href}

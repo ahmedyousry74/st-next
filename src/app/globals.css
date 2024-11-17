@@ -1199,12 +1199,12 @@ footer svg,footer path{
 .search__input input{
     border-radius: 40px;
     display: block;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     height: 40px;
     padding: 0 42px 0 24px;
     width: 100%;
-    background-color: rgb(145 147 152 / 35%);
+    background-color: rgb(145 147 152 / 45%);
     color: #fff;
     box-shadow: unset;
     border: 1px solid #dfe1e1ff;
@@ -1217,19 +1217,44 @@ footer svg,footer path{
   color: #fff !important;
 }
 .slider__home{
-  background-image: url('../../src/assets/images/university_1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 }
 .slider__home::after{
   position: absolute;
   content: "";
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
+}
+.slider__home.bg1{
+  background-image: url('../../src/assets/images/university_1.jpg');
+}
+.slider__home.bg2{
+  background-image: url('../../src/assets/images/university_2.jpg');
+}
+.slider__home.bg3{
+  background-image: url('../../src/assets/images/university_3.jpg');
+}
+.slider__home * {
+  z-index: 9;
+  position: relative;
+}
+.slider__home h1 span{
+  background: linear-gradient(90deg, #FEA71D 33.33%, #533AD4 62%);
+  font-size: 55px;
+  font-weight: 900;
+  -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
