@@ -1216,3 +1216,20 @@ footer svg,footer path{
 .search__input input::placeholder{
   color: #fff !important;
 }
+.slider__home{
+  background-image: url('../../src/assets/images/university_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.slider__home::after{
+  position: absolute;
+  content: "";
+  background-color: rgba(0,0,0,0.3);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
