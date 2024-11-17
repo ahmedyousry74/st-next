@@ -1240,12 +1240,15 @@ footer svg,footer path{
 }
 .slider__home.bg1{
   background-image: url('../../src/assets/images/university_1.jpg');
+  
 }
 .slider__home.bg2{
   background-image: url('../../src/assets/images/university_2.jpg');
+  
 }
 .slider__home.bg3{
   background-image: url('../../src/assets/images/university_3.jpg');
+  
 }
 .slider__home * {
   z-index: 9;
