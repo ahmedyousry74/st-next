@@ -25,7 +25,7 @@ const NewsLetter = () => {
       <ul className='flex justify-center items-center flex-col gap-5 lg:w-[650px] w-auto'>
         <li className='text-white font-medium text-[20px] text-center'> استخدام التكنولوجيا الرقمية لتحسين وتطوير العمليات والخدمات في جميع جوانب الحياة، سواء في المؤسسات الحكومية، الشركات، أو في الحياة اليومية للأفراد </li>
       </ul>
-      <a href="" target="_blank" className="bg-[#FEA71D] font-medium text-[17px] py-[8px] px-[35px] text-[#fff] rounded-full"> ملف الأعمال </a>
+      <a href="" target="_blank" className="bg-third-color-dark font-medium text-[17px] py-[8px] px-[35px] !text-[#fff] rounded-full"> ملف الأعمال </a>
     </section>
   )
 }

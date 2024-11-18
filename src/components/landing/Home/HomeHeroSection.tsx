@@ -41,30 +41,30 @@ const HomeHeroSection = ({ data }: { data: HomeSingleDetail[] }) => {
           >
             
             <div className='slider__home bg1'>
-                <RevealAnimation className='flex justify-center items-center'> 
-              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
-                <h1 className='text-white md:text-[45px] text-[32px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
-                <p  className='text-white md:text-[32px] text-[20px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <RevealAnimation className='flex justify-start items-start md:px-[80px] px-[30px]'> 
+              <div className='flex justify-start items-start flex-col gap-[15px] md:max-w-[650px] w-full'>
+                <h1 className='text-white md:text-[45px] text-[32px] font-semibold' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white md:text-[32px] text-[20px] font-medium' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
                 <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
               </div>
             </RevealAnimation>
             </div>
             <div className='slider__home bg2'>
-              <RevealAnimation  className='flex justify-center items-center'>
-              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
+              <RevealAnimation  className='flex justify-start items-start md:px-[80px] px-[30px]'>
+              <div className='flex justify-start items-start flex-col gap-[15px] md:max-w-[650px] w-full'>
             
-                <h1 className='text-white md:text-[45px] text-[32px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
-                <p  className='text-white md:text-[32px] text-[20px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <h1 className='text-white md:text-[45px] text-[32px] font-semibold' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white md:text-[32px] text-[20px] font-medium' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
                 <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
               </div>
               </RevealAnimation>
             </div>
             <div className='slider__home bg3'>
-              <RevealAnimation className='flex justify-center items-center'>
-              <div className='flex justify-center items-center flex-col gap-[15px] md:max-w-[650px] w-full'>
+              <RevealAnimation className='flex justify-start items-start md:px-[80px] px-[30px]'>
+              <div className='flex justify-start items-start flex-col gap-[15px] md:max-w-[650px] w-full'>
               
-                <h1 className='text-white md:text-[45px] text-[32px] font-semibold text-center' > منصة <span> الفكر العلمي  </span> </h1>
-                <p  className='text-white md:text-[32px] text-[20px] font-medium text-center' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
+                <h1 className='text-white md:text-[45px] text-[32px] font-semibold' > منصة <span> الفكر العلمي  </span> </h1>
+                <p  className='text-white md:text-[32px] text-[20px] font-medium' > هي منصة تعليمية متطورة تهدف إلى تحسين وتطوير عملية التعليم </p>
                 <Link href="" title="" className='bg-third-color-dark !text-white !py-[10px] !px-[45px] text-medium rounded-full'> المزيد </Link>
               </div>
               </RevealAnimation>

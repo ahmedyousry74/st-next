@@ -38,6 +38,7 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
     <main>
       {!!data?.data?.sliders?.length && <HomeHeroSection data={data?.data?.sliders || []} />}
       <Homecards />
+      <NewsLetter />
       {/* {!!data?.data?.about_us?.[0] && <HomeAboutUs data={data?.data?.about_us} />} */}
       {/* {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />} */}
       {/* {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />} */}
@@ -45,7 +46,6 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
       {/* <HomeStudents /> */}
       {/* <HomeAuthor /> */}
       {/* {!!data?.data?.ai && <HomeAi data={data?.data?.ai} />} */}
-      {/* <NewsLetter /> */}
       {/* {!!data?.data?.readers?.main_section && <HomeSmartReader data={data?.data?.readers} />} */}
       {/* {!!data?.data?.latest_blogs?.data?.length && <LatestBlog data={data?.data?.latest_blogs?.data || []} />} */}
       {/* <CategoriesSlider /> */}

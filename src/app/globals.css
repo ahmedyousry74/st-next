@@ -1050,13 +1050,13 @@ footer svg,footer path{
   position: relative;;
 }
 .digital_number{
-  background-image: url('../../src/assets/images/number.jpeg');
+  background-image: url('../../src/assets/images/ai_1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   width: 100%;
-  height: 650px;
+  height: 550px;
   position: relative;
 }
 .digital_number::after{
@@ -1261,16 +1261,16 @@ footer svg,footer path{
   position: relative;
 }
 .slider__home h1 span{
-  background: linear-gradient(90deg, #FEA71D 33.33%, #533AD4 62%);
+  /* background: linear-gradient(90deg, #FEA71D 33.33%, #533AD4 62%);
   font-size: 55px;
   font-weight: 900;
   -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip: text; */
 }
 @media(max-width: 580px){
-  .slider__home h1 span{
+  /* .slider__home h1 span{
     font-size: 32px;
-  }
+  } */
 }
 .swiper-slide.py-1{
   padding-bottom:  0 !important;
