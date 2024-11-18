@@ -15,6 +15,7 @@ import ai from '@/assets/images/ai.png'
 import mobile from '@/assets/images/phone.png'
 import book from '@/assets/images/book.png'
 import ux from '@/assets/images/ux.png'
+import shape from '@/assets/images/hero_shape.png'
 import { HomeSingleDetailsSection } from "@/services/types"
 import { useLanguage } from "@/services/hooks"
 import { NextImage } from "@/components/shared";
@@ -98,7 +99,7 @@ const HomeLibraryNum = ({ data }: { data: HomeSingleDetailsSection }) => {
     //     </div>
     //   </RevealAnimation>
     // </section>
-    <section className="library__num sm:py-[80px] py-[50px] lg:!px-[130px] px-[25px] bg-primary-color-dark">
+    <section className="library__num sm:py-[80px] py-[50px] lg:!px-[130px] px-[25px] bg-primary-color-dark relative">
       <div className="flex justify-start items-start flex-col gap-1 pb-5 border-b !border-[#f4f4f44f] md:max-w-[650px]">
         <h1 className="text-white font-bold text-[36px]"> المكتبة الرقمية </h1>
         <p className="text-white text-[16px] font-normal leading-[1.9]"> {data?.main_section?.details} </p>
@@ -148,6 +149,9 @@ const HomeLibraryNum = ({ data }: { data: HomeSingleDetailsSection }) => {
             <span className="text-white font-normal text-[15px]"> المكتبة التفاعلية عادةً ما تكون متاحة عبر مختلف الأجهزة مثل الحواسيب، الهواتف الذكية، والأجهزة اللوحية، مما يسمح للمستخدمين بالوصول إلى كتبهم في أي وقت وأي مكان.  </span>
           </div>
         </div>
+      </div>
+      <div className="absolute top-0 left-0 w-full h-full">
+        <Image src={shape} alt="shape" />
       </div>
     </section>
   )

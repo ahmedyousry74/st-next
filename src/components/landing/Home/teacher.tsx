@@ -19,22 +19,21 @@ const Hometeacher = () => {
 
 
 
- 
   return (
 
-    <section className="py-12 teacher__section relative">
+    <section className="py-12 teacher__section relative bg-primary-color-dark">
         <div className="md:px-[40px] px-[25px]">
             <div className='flex justify-center items-center flex-row md:gap-[40px] gap-[25px] lg:flex-nowrap flex-wrap'>
                 <div className="features__one flex justify-center items-center flex-col gap-4 px-4">
                     <h2 className='text-white font-semibold text-[20px] text-center' > منصة الفكر العلمي للحلول التعليمية أعضاء هيئة التدريس لوحة تحكم </h2>
                     <Link href={'/teacher'} className="my-5">
-                        <button className="bg-[#FEA71D] font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
+                        <button className="bg-third-color-dark font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
                     </Link>
                 </div>
                 <div className="features__two flex justify-center items-center flex-col gap-4 px-4">
                     <h2 className='text-white font-semibold text-[20px] text-center' > تقدم المنصة محتوى تعليمي للطلاب شامل يناسب جميع المستويات </h2>
                     <Link href={'/students'} className="my-5">
-                        <button className="bg-[#FEA71D] font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
+                        <button className="bg-third-color-dark font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
                     </Link>
                 </div>
             </div>
