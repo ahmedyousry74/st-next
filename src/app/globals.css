@@ -1333,3 +1333,7 @@ footer{
   background-size: cover;
   height: 100%;
 }
+.library__num,.cards__section{
+  /* background-color: transparent;
+    background-image: radial-gradient(at top center, #1C1E2A 0%, #12141D 100%); */
+}
