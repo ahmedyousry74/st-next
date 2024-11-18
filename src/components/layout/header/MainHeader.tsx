@@ -46,7 +46,7 @@ const MainHeader = () => {
 
   return (
     <header className='absolute top-0 right-0 z-9 w-full h-full'>
-      <div className='!bg-second-color-dark py-3 px-6 flex justify-start items-center flex-row relative z-10'>
+      <div className='!bg-second-color-dark py-3 px-6 lg:!flex hidden justify-start items-center flex-row relative z-10'>
         <MenuLg />
       </div>
       <div className={`navbar bg-transparent relative z-50 top-0 w-screen transition-all duration-300 border-b border-primary-10 border-solid  `}>
@@ -71,7 +71,7 @@ const MainHeader = () => {
                   <MainLogo />
                 </div>
               </div>
-              <div className='search__input relative'>
+              <div className='search__input relative lg:block hidden'>
                 <div className='absolute top-[10px] left-[25px]'>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21 21L15.0001 15" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -82,8 +82,7 @@ const MainHeader = () => {
               </div>
               <div className="flex items-center gap-5">
                 <div>
-                  <HeaderActions
-                  />
+                  <HeaderActions />
                 </div>
               </div>
             </div>
@@ -104,7 +103,7 @@ const MainHeader = () => {
         onClose={handleCloseSideDrawer}
         className="lg:hidden"
       >
-        <div className="bg-bg h-screen flex flex-col gap-3">
+        <div className="bg-bg flex flex-col gap-3">
           <div className="flex items-center justify-between p-4 border-b border-primary-30 mb-3">
             <MainLogo />
             <Button size="small" onClick={handleCloseSideDrawer}  >
@@ -112,15 +111,21 @@ const MainHeader = () => {
             </Button>
           </div>
           <div className=" flex-1 overflow-y-auto "
-            style={{
-              maxHeight: 'calc(100vh - 200px)'
-            }}
+            
           >
 
             <MenuLg isDrawer />
           </div>
+          <div className='search__input relative lg:block hidden'>
+            <div className='absolute top-[10px] left-[25px]'>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 21L15.0001 15" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 17C13.866 17 17 13.866 17 10C17 6.13401 13.866 3 10 3C6.13401 3 3 6.13401 3 10C3 13.866 6.13401 17 10 17Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <input type="text" placeholder='بحث' className='' />
+          </div>
           <div className="p-3  ">
-
             <HeaderActions isDrawer />
           </div>
         </div>

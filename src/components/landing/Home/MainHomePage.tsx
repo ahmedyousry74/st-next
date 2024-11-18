@@ -38,20 +38,20 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
     <main>
       {!!data?.data?.sliders?.length && <HomeHeroSection data={data?.data?.sliders || []} />}
       <Homecards />
-      {!!data?.data?.about_us?.[0] && <HomeAboutUs data={data?.data?.about_us} />}
-      {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />}
-      {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />}
-      <HomeTeacher />
+      {/* {!!data?.data?.about_us?.[0] && <HomeAboutUs data={data?.data?.about_us} />} */}
+      {/* {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />} */}
+      {/* {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />} */}
+      {/* <HomeTeacher /> */}
       {/* <HomeStudents /> */}
-      <HomeAuthor />
-      {!!data?.data?.ai && <HomeAi data={data?.data?.ai} />}
-      <NewsLetter />
+      {/* <HomeAuthor /> */}
+      {/* {!!data?.data?.ai && <HomeAi data={data?.data?.ai} />} */}
+      {/* <NewsLetter /> */}
       {/* {!!data?.data?.readers?.main_section && <HomeSmartReader data={data?.data?.readers} />} */}
-      {!!data?.data?.latest_blogs?.data?.length && <LatestBlog data={data?.data?.latest_blogs?.data || []} />}
+      {/* {!!data?.data?.latest_blogs?.data?.length && <LatestBlog data={data?.data?.latest_blogs?.data || []} />} */}
       {/* <CategoriesSlider /> */}
-      {!!data?.data?.latest_testimonials?.data?.length && <Testimonials data={data?.data?.latest_testimonials?.data || []} />}
-      {!!data?.data?.faqs?.data?.length && <FAQ data={data?.data?.faqs?.data || []} />}
-      {!!data?.data?.partners?.data?.length && <Partners data={data?.data?.partners?.data || []} />}
+      {/* {!!data?.data?.latest_testimonials?.data?.length && <Testimonials data={data?.data?.latest_testimonials?.data || []} />} */}
+      {/* {!!data?.data?.faqs?.data?.length && <FAQ data={data?.data?.faqs?.data || []} />} */}
+      {/* {!!data?.data?.partners?.data?.length && <Partners data={data?.data?.partners?.data || []} />} */}
     </main>
   )
 }

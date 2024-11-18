@@ -1213,6 +1213,12 @@ footer svg,footer path{
     outline-offset: -1px;
     width: 650px;
 }
+
+@media(max-width: 580px){
+  .search__input input{
+    max-width: 100%;
+  }
+}
 .search__input input::placeholder{
   color: #fff !important;
 }
@@ -1261,6 +1267,11 @@ footer svg,footer path{
   -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+@media(max-width: 580px){
+  .slider__home h1 span{
+    font-size: 32px;
+  }
+}
 .swiper-slide.py-1{
   padding-bottom:  0 !important;
 }
@@ -1271,7 +1282,7 @@ footer svg,footer path{
   transition: 0.5s all ease-in-out;
 }
 .card_shape:hover .shape_2{
-  transform: translate(0,0) rotate(0) skew(0) skewY(0) scaleX(10) scaleY(10);
+  transform: translate(0,0) rotate(0) skew(0) skewY(0) scaleX(13) scaleY(13);
   opacity: 1 !important;
 }
 .card_shape:hover h4, .card_shape:hover h6{
@@ -1288,4 +1299,29 @@ footer svg,footer path{
   color: #333 !important;
   position: relative;
   z-index: 9;
+}
+.card_shape:hover svg path,.card_shape:hover svg{
+  color: #fff !important;
+  fill: #fff !important;
+  stroke: #fff;
+  position: relative;
+  z-index: 99;
+}
+
+.card_shape:hover img{
+  filter: invert(1);
+}
+.ant-drawer-content-wrapper .navbar_btns {
+  display: block !important;
+}
+.ant-drawer-content-wrapper ul li a{
+  color: #333 !important;
+}
+.ant-drawer-content-wrapper a button svg,.ant-drawer-content-wrapper a button path{
+  color: #333;
+  fill: #333;
+  stroke: #333;
+}
+.ant-drawer-content-wrapper .search__input {
+  display: block !important;
 }
