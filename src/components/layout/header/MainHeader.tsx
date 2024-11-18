@@ -113,7 +113,6 @@ const MainHeader = () => {
           <div className=" flex-1 overflow-y-auto "
             
           >
-
             <MenuLg isDrawer />
           </div>
           <div className='search__input relative lg:block hidden'>
