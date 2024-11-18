@@ -55,7 +55,7 @@ const MainFooter = () => {
     { text: t('contactUs'), href: '/contact' },
   ]
   return (
-    <footer className="  bg-[#553DDD]  relative overflow-hidden">
+    <footer className="  bg-primary-color-dark border-t border-solid border-[#ccc]  relative overflow-hidden">
    
       <div className="container relative  pt-24 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-7 lg:gap-8 pb-6">
@@ -65,13 +65,7 @@ const MainFooter = () => {
             <p className="my-4 lg:my-5 text-[#fff]">
               {data?.data?.details}
             </p>
-
-
-
-
           </div>
-
-
           <div>
             <FooterLinks
               title={t('quick_link')}

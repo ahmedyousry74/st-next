@@ -1325,3 +1325,11 @@ footer svg,footer path{
 .ant-drawer-content-wrapper .search__input {
   display: block !important;
 }
+
+footer{
+  background-image: url("../../src/assets/images/footerBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
