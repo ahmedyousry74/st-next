@@ -8,9 +8,7 @@ import book from '@/assets/images/book.svg'
 import global from '@/assets/images/global.svg'
 import idea from '@/assets/images/idea.svg'
 import shape from '@/assets/images/shape-2.svg'
-// import pdf from '@/assets/images/catalog.pdf'
 import right from '@/assets/images/check2.png'
-// import video from '@/assets/test.mp4'
 import Image from "next/image"
 import imgBg from '@/assets/images/landing/about_8.png'
 import { TickCircle } from "iconsax-react"
@@ -54,15 +52,10 @@ const HomeAboutUs = ({ data }: { data: HomeAboutUsIN }) => {
                   <span> المكتبة الأساسية للفكر العلمي ومكتبات الجامعات مثل جامعة الملك عبد العزيز </span>
                 </li>
               </ul>
-              {/* <Link href={pdf} className="my-5">
-                  <button className="bg-primary font-medium text-[17px] !py-[12px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
-              </Link> */}
             </div>
             <div className="lg:col-span-5">
               <div className='hero__img relative'>
-                {/* <Image src={hero} alt='hero img' className='object-contain z-9 relative' /> */}
                 <video width="" height="" controls className='z-10 relative w-full md:h-[550px] h-[300px] rounded-[12px]'>
-                  {/* <source src={video} type="video/mp4"/> */}
                 </video>
               </div>
             </div>
