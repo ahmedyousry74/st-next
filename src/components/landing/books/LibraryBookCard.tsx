@@ -102,7 +102,6 @@ const LibraryBookCard: FC<Props> = ({ index, noCart = false, book, refetch, href
                 e.preventDefault()
                 handleAddToCart({ book_id: book.id })
               }}
-              loading={isAddingToCart}
               disabled={isAddingToCart}>
               {t('add_to_cart')}
             </button>
