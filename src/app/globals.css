@@ -1245,11 +1245,11 @@ footer svg,footer path{
   right: 0;
 }
 .slider__home.bg1{
-  background-image: url('../../src/assets/images/university_1.jpg');
+  background-image: url('../../src/assets/images/university_2.jpg');
   
 }
 .slider__home.bg2{
-  background-image: url('../../src/assets/images/university_2.jpg');
+  background-image: url('../../src/assets/images/university_1.jpg');
   
 }
 .slider__home.bg3{
