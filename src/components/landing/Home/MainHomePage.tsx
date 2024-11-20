@@ -38,9 +38,9 @@ const MainHomePage = ({ homeData }: { homeData: HomeFrontResponse }) => {
     <main>
       {!!data?.data?.sliders?.length && <HomeHeroSection data={data?.data?.sliders || []} />}
       <Homecards />
-      <NewsLetter />
       {!!data?.data?.blocks?.main_section && <HomeLibraryNum data={data?.data?.blocks} />}
       <HomeTeacher />
+      <NewsLetter />
       {/* {!!data?.data?.about_us?.[0] && <HomeAboutUs data={data?.data?.about_us} />} */}
       {/* {!!data?.data?.educational?.main_section && <HomeManagement data={data?.data?.educational} />} */}
       {/* <HomeStudents /> */}

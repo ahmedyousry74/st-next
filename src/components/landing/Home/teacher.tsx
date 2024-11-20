@@ -3,8 +3,8 @@ import React from 'react'
 import { SingleHero } from "../shared"
 
 import teacherImg from '@/assets/images/teacher.svg'
-import teacher from '@/assets/images/teacher.jpg'
-import student from '@/assets/images/student.jpg'
+import teacher from '@/assets/images/teacher1.jpg'
+import student from '@/assets/images/student1.jpg'
 
 import right from '@/assets/images/check2.png'
 import { ArchiveBook, Book1, Data2, PresentionChart, Setting5, TickCircle, UserEdit } from "iconsax-react"
@@ -38,25 +38,25 @@ const Hometeacher = () => {
                         <button className="bg-third-color-dark font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
                     </Link>
                 </div> */}
-                <div className='flex justify-start items-start flex-col features__'>
-                    <div className='IMG__ w-full'>
+                <div className='flex justify-start items-start flex-col features__ md:w-[50%] w-[100%]'>
+                    <div className='IMG__ !w-full !h-[350px]'>
                         <Image src={teacher} alt="teacher" className='w-full' />
                     </div>
-                    <div className='Desc__ bg-white py-[15px] px-[25px] flex justify-start items-start flex-col gap-4'>
-                        <h3 className='text-primary-color-dark text-[24px] font-semibold'> أعضاء هيئة التدريس </h3>
-                        <p className='text-primary-color-dark text-[15px] font-normal'> منصة الفكر العلمي للحلول التعليمية أعضاء هيئة التدريس لوحة تحكم  </p>
+                    <div className='Desc__ bg-primary-color-dark py-[15px] md:px-[25px] px-[10px] flex justify-start items-start flex-col gap-4 w-full'>
+                        <h3 className='text-white text-[24px] font-semibold'> أعضاء هيئة التدريس </h3>
+                        <p className='text-white text-[15px] font-normal'> منصة الفكر العلمي للحلول التعليمية أعضاء هيئة التدريس لوحة تحكم  </p>
                         <Link href={'/teacher'}>
                             <button className="bg-third-color-dark font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
                         </Link>
                     </div>
                 </div>
-                <div className='flex justify-start items-start flex-col features__'>
-                    <div className='IMG__ !w-[457px] !h-[305px]'>
+                <div className='flex justify-start items-start flex-col features__ md:w-[50%] w-[100%]'>
+                    <div className='IMG__ !w-full !h-[350px]'>
                         <Image src={student} alt="teacher" className='!w-full h-full' />
                     </div>
-                    <div className='Desc__ bg-white py-[15px] px-[25px] flex justify-start items-start flex-col gap-4'>
-                        <h3 className='text-primary-color-dark text-[24px] font-semibold'> الطلاب</h3>
-                        <p className='text-primary-color-dark text-[15px] font-normal'> تقدم المنصة محتوى تعليمي للطلاب شامل يناسب جميع المستويات   </p>
+                    <div className='Desc__ bg-primary-color-dark py-[15px] md:px-[25px] px-[10px] flex justify-start items-start flex-col gap-4 w-full'>
+                        <h3 className='text-white text-[24px] font-semibold'> الطلاب</h3>
+                        <p className='text-white text-[15px] font-normal'> تقدم المنصة محتوى تعليمي للطلاب شامل يناسب جميع المستويات   </p>
                         <Link href={'/students'}>
                             <button className="bg-third-color-dark font-medium text-[17px] !py-[10px] !px-[35px] text-[#fff] rounded-full cursor-pointer "> اقرأ المزيد </button>
                         </Link>

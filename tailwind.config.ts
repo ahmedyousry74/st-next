@@ -21,7 +21,7 @@ const config: Config = {
       colors: {
         'primary-color-dark': '#1A1A1D',
         'second-color-dark': '#333',
-        'third-color-dark': '#533AD4',
+        'third-color-dark': '#ab2ff3',
         primary: {
           DEFAULT: 'rgba(var(--color-primary), 1)',
           85: 'rgba(var(--color-primary), 0.85)',
